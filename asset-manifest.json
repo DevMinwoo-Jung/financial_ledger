@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/financial_ledger/static/css/main.56118794.chunk.css",
+    "main.js": "/financial_ledger/static/js/main.2ef654db.chunk.js",
+    "main.js.map": "/financial_ledger/static/js/main.2ef654db.chunk.js.map",
+    "runtime-main.js": "/financial_ledger/static/js/runtime-main.d4f6417b.js",
+    "runtime-main.js.map": "/financial_ledger/static/js/runtime-main.d4f6417b.js.map",
+    "static/css/2.ba2662e4.chunk.css": "/financial_ledger/static/css/2.ba2662e4.chunk.css",
+    "static/js/2.72c9d28c.chunk.js": "/financial_ledger/static/js/2.72c9d28c.chunk.js",
+    "static/js/2.72c9d28c.chunk.js.map": "/financial_ledger/static/js/2.72c9d28c.chunk.js.map",
+    "index.html": "/financial_ledger/index.html",
+    "static/css/2.ba2662e4.chunk.css.map": "/financial_ledger/static/css/2.ba2662e4.chunk.css.map",
+    "static/css/main.56118794.chunk.css.map": "/financial_ledger/static/css/main.56118794.chunk.css.map",
+    "static/js/2.72c9d28c.chunk.js.LICENSE.txt": "/financial_ledger/static/js/2.72c9d28c.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/financial_ledger/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d4f6417b.js",
+    "static/css/2.ba2662e4.chunk.css",
+    "static/js/2.72c9d28c.chunk.js",
+    "static/css/main.56118794.chunk.css",
+    "static/js/main.2ef654db.chunk.js"
+  ]
+}
