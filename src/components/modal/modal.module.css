@@ -1,0 +1,27 @@
+@value laptop from '../../common/size.css';
+
+.modal {
+  position: absolute;
+  margin-left: 40rem;
+  width: 35rem;
+  height: 35rem;
+  background-color: white;
+  z-index: 1;
+  border: 1px solid black;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: laptop) {
+  .modal {
+    position: absolute;
+    margin-left: 20rem;
+    width: 25rem;
+    height: 25rem;
+    background-color: white;
+    z-index: 1;
+    border: 1px solid black;
+    border-radius: 5%;
+    cursor: pointer;
+  }
+}

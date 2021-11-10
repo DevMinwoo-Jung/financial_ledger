@@ -1,0 +1,114 @@
+@value makerYellow, makerBlack, makerBlue, makerWhite, makerGreen from '../../common/colors.css';
+@value mediaQuery from '../../common/size.css';
+
+.login {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.loginLeft {
+  background-color: makerYellow;
+  color: makerBlack;
+  height: 100vh;
+  min-width: 50%;
+  text-align: left;
+  padding-top: 7%;
+}
+
+.won {
+  font-size: 4rem;
+  margin-left: 10%;
+}
+
+.loginLeftBigFont {
+  display: block;
+  margin-left: 15%;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.loginLeftsmallFont {
+  display: block;
+  margin-left: 15%;
+  margin-top: 5%;
+  font-size: 1.5rem;
+  font-weight: 520;
+}
+
+.loginRight {
+  margin: auto;
+  min-width: 50%;
+  background-color: makerWhite;
+  height: 100vh;
+}
+
+.loginRightFont {
+  font-size: 4rem;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0.5rem;
+  margin-top: 12rem;
+}
+
+.item {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.logoPara {
+  font-size: 3rem;
+  margin-left: 1rem;
+}
+
+.button {
+  width: 30rem;
+  height: 4rem;
+  margin-top: 2rem;
+  border-radius: 10%;
+  background-color: makerWhite;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(248, 248, 248, 0.76);
+}
+
+.logo {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1rem;
+}
+
+.loginLogo {
+  width: 3rem;
+  height: 3rem;
+}
+
+@media screen and (max-width: mediaQuery) {
+  .login {
+    flex-direction: column;
+  }
+  .list {
+    height: 5rem;
+    margin-top: 5rem;
+  }
+  .loginRight {
+    width: 100%;
+    height: 100%;
+  }
+  .loginLeft {
+    width: 100%;
+    height: 100%;
+    padding-top: 5rem;
+  }
+  .loginLeftFont {
+    font-size: 7rem;
+    padding-top: 1.5rem;
+  }
+}

@@ -1,0 +1,17 @@
+.button {
+  width: calc(100% / 6);
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.buttonSpan {
+  font-size: 1rem;
+  margin: auto;
+}
+
+.button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

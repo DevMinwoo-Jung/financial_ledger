@@ -1,0 +1,17 @@
+@value laptop from '../../common/size.css';
+
+.receipts {
+  width: 60rem;
+  height: 20.5rem;
+  margin-left: 4rem;
+  margin-bottom: 1rem;
+  background-color: rgb(253, 249, 236);
+  border-radius: 5%;
+  margin-left: 2rem;
+}
+
+@media screen and (max-width: laptop) {
+  .receipts {
+    margin: auto;
+  }
+}

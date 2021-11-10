@@ -1,0 +1,24 @@
+@value laptop from '../../common/size.css';
+
+.contents {
+  margin: 1rem 0 0 0;
+  width: 100%;
+}
+
+.display {
+  display: flex;
+  position: relative;
+}
+
+.editor {
+  overflow-y: hidden;
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  width: 100%;
+}
+
+@media screen and (max-width: laptop) {
+  .display {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,39 @@
+@value makerRed, makerWhite from '../../common/colors.css';
+
+.modalDiv {
+  position: absolute;
+  height: 10rem;
+  width: 25rem;
+  left: 40%;
+  bottom: 70%;
+  font-weight: bold;
+  background-color: makerWhite;
+  text-align: center;
+  border: 3px solid black;
+  z-index: 1;
+}
+
+.modalHeader {
+  width: 100%;
+  height: 3rem;
+  background-color: makerRed;
+  color: makerWhite;
+  padding-top: 2px;
+  font-size: 2rem;
+}
+
+.modalMessage {
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+.modalFooter {
+  width: 100%;
+  height: 3rem;
+  font-size: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.modalFooter:hover {
+  transform: scale(1.02);
+}
