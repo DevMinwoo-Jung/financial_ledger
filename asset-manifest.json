@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/financial_ledger/static/css/main.56118794.chunk.css",
-    "main.js": "/financial_ledger/static/js/main.db137f32.chunk.js",
-    "main.js.map": "/financial_ledger/static/js/main.db137f32.chunk.js.map",
+    "main.js": "/financial_ledger/static/js/main.47c054c7.chunk.js",
+    "main.js.map": "/financial_ledger/static/js/main.47c054c7.chunk.js.map",
     "runtime-main.js": "/financial_ledger/static/js/runtime-main.d4f6417b.js",
     "runtime-main.js.map": "/financial_ledger/static/js/runtime-main.d4f6417b.js.map",
     "static/css/2.ba2662e4.chunk.css": "/financial_ledger/static/css/2.ba2662e4.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.ba2662e4.chunk.css",
     "static/js/2.c91c504e.chunk.js",
     "static/css/main.56118794.chunk.css",
-    "static/js/main.db137f32.chunk.js"
+    "static/js/main.47c054c7.chunk.js"
   ]
 }
