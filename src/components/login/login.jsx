@@ -7,7 +7,7 @@ const Login = ({authService}) => {
   const history = useHistory();
   const goTomaker = userId => {
     history.push({
-      pathname: '/maker',
+      pathname: '/financial_ledger/maker',
       state: { id: userId },
     });
   };
@@ -41,18 +41,18 @@ const Login = ({authService}) => {
       <div className={styles.loginRight}>  
         <ul className={styles.list}>
           <li className={styles.item}>
-            <img className={styles.logo} src="/images/money.png" alt="logo" />
+            <img className={styles.logo} src="images/money.png" alt="logo" />
             <span className={styles.loginRightFont}>로그인하기</span>
           </li>
           <li className={styles.item}>
             <button className={styles.button} onClick={onLogin}>            
-              <img src="/images/google.png" alt="" className={styles.loginLogo} />
+              <img src="images/google.png" alt="" className={styles.loginLogo} />
               <span className={styles.logoPara}>Google</span>
             </button>
           </li>
           <li className={styles.item}>
             <button className={styles.button} onClick={onLogin}>
-              <img src="/images/github.png" alt="" className={styles.loginLogo}/>
+              <img src="images/github.png" alt="" className={styles.loginLogo}/>
               <span className={styles.logoPara}>Github</span>
             </button>
           </li>

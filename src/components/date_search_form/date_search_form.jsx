@@ -23,7 +23,7 @@ const DateSearchForm = ({onSubmit, startRef, endRef, onResetDate}) => {
         <input className={styles.datesPicker} ref={startRef} type="date"  />
         <input className={styles.datesPicker} ref={endRef} type="date" />
         <div className={styles.container}>
-          <img className={styles.searchImg} onClick={goSubmit} src="/images/search.png" alt="" title="검색하기"/>
+          <img className={styles.searchImg} onClick={goSubmit} src="images/search.png" alt="" title="검색하기"/>
         </div>
         <div className={styles.container}>
           <img className={styles.searchImg} onClick={goResetDate} src="images/circular-refreshment-arrow.png" alt="" title="날짜 초기화"/>

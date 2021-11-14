@@ -17,8 +17,8 @@ const Editor = memo(({onAsc, onDesc, FileInput, records, onUpdate, addRecord, up
     <div className={styles.informations}>
       <div className={styles.informations__header}>
         <span className={styles.textBox}>날짜
-          <img className={styles.uploadIcon} src="/images/upload.png" alt="오름차순" onClick={goAsc} />
-          <img className={styles.downLoadIcon} src="/images/download.png" alt="내림차순" onClick={goDesc} />
+          <img className={styles.uploadIcon} src="images/upload.png" alt="오름차순" onClick={goAsc} />
+          <img className={styles.downLoadIcon} src="images/download.png" alt="내림차순" onClick={goDesc} />
         </span>
         <span className={styles.textBox}>지출비용</span>
         <span className={styles.textBox}>분류</span>

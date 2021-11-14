@@ -56,7 +56,7 @@ const Maker = memo(({FileInput, authService, recordRepository }) => {
       if (user) {
         setUserId(user.uid);
       } else {
-        history.push('/');
+        history.push('/financial_ledger/');
       }
     });
   }, [userId, history, authService]);

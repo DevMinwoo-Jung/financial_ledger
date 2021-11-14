@@ -7,12 +7,12 @@ function App({FileInput, authService, recordRepository }) {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/financial_ledger/">
           <div className={styles.app}>
             <Login authService={authService} />
           </div>
         </Route>
-        <Route path="/maker">
+        <Route path="/financial_ledger/maker">
           <Maker FileInput={FileInput} authService={authService} recordRepository={recordRepository}/>
         </Route>
       </Switch>
