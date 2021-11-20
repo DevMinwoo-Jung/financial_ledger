@@ -30,7 +30,7 @@ const Receipts = ({records}) => {
     slidesToScroll: 3,
     speed: 2000,
   };
-  const length =   Object.keys(records)
+  const sliederLength =   Object.keys(records)
   .map(key => records[key])
   .filter(record => record['fileURL'] !== '')
   .map(record => record);
@@ -48,13 +48,12 @@ const Receipts = ({records}) => {
   
 
   return (
-    <>
     <div className={styles.receipts}>
     {
       show === false ? null : <Modal img={img} onRequestClose={onRequestClose}/>
     }
     <Arrow>
-      <Slider {...settings} slidesToShow={Math.min(length.length, 3)}>
+      <Slider {...settings} slidesToShow={Math.min(sliederLength.length, 3)}>
         {
             Object.keys(records)
             .map(key => records[key])
@@ -64,7 +63,6 @@ const Receipts = ({records}) => {
       </Slider>
     </Arrow>
     </div>
-    </>
   );
 };
 
